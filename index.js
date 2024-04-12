@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Allow requests from localhost:3000
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://resize-frontend-two.vercel.app' }));
 
 // Middleware
 app.use(express.json());
